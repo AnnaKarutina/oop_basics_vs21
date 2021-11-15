@@ -4,4 +4,8 @@ class Person{
     constructor(name) {
        this.name = name;
     }
+    // class functions
+    greeting(){
+        console.log('Hi, i am ' + this.name + '!')
+    }
 }
